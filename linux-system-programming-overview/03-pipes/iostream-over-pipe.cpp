@@ -15,6 +15,7 @@ int main()
     if (pid > 0)
     {
         close(fd[0]);
+
         dup2(fd[1], 1);
 
         cout << "Hello!";
@@ -27,7 +28,6 @@ int main()
         dup2(fd[0], 0);
 
         string s;
-
         cin >> s;
 
         cout << "Got message from parent: " << s << endl;
