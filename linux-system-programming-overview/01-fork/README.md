@@ -1,6 +1,5 @@
 ## Материалы к первому занятию
 
-* [Арифметические операции при помощи ассемблера](asm.cpp)
 * [getpid и getppid](pid.cpp)
 * [fork](fork.cpp)
 * [fork + waitpid](fork-and-wait.cpp)
