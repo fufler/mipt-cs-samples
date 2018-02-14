@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <wait.h>
+#include <sys/wait.h>
 
 #include <iostream>
 #include <thread>
@@ -9,7 +9,7 @@
 using namespace std;
 using namespace std::chrono_literals;
 
-static const int NUM_FORKS = 10;
+static const int NUM_FORKS = 3;
 
 int main()
 {
