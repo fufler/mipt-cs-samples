@@ -30,6 +30,7 @@ int main()
         buf = new char[50];
 
         int nb = read(fd[0], buf, 30);
+        buf[nb] = 0;
         close(fd[0]);
 
         cout << "Got message (length=" << nb << ") from parent: " << buf << endl;
