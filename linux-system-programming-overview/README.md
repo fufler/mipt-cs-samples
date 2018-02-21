@@ -1,7 +1,10 @@
 ## Оглавление
 
-* [Введение](00-intro)
-* [fork, exec\*](01-fork)
-* [argc, argv, envp](02-argc-argv-envp)
-* [open, read, write, close](03-files)
-* [pipe, dup2](04-pipes)
+| Тема | Ключевые слова |
+|------|-----------------|
+| [Введение](00-intro) | \_\_asm |
+| [Работа с процессами](01-fork) | getpid, getppid, fork, exec\* |
+| [Параметры командной строки и переменные окружения](02-argc-argv-envp) | argc, argv, envp |
+| [Работа с файлами](03-files) | open, read, write, close |
+| [Неименованные пайпы](04-pipes) | pipe, dup2 |
+
