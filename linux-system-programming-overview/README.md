@@ -8,4 +8,5 @@
 | [Работа с файлами](03-files) | open, read, write, close |
 | [Неименованные пайпы](04-pipes) | pipe, dup2 |
 | [Sys V IPC](05-sysv-ipc) | ftok, shmget, shmat, semget, semop, semctl, msgget, msgsnd, msgrcv, msgctl|
+| [POSIX threads](06-posix-threads) | pthread_{create, join}, pthread_mutex_{init, lock, unlock}|
 
