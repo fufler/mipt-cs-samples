@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(int argc, char** argv, char** envp)
+int main(int, char**, char** envp)
 {
     int max_len = 0;
     char* longest_var_name;
