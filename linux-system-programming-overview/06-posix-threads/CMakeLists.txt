@@ -9,6 +9,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(
     TARGETS
     "threads"
+    "mt-sort"
 )
 
 find_package (Threads)
