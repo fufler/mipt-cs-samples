@@ -9,6 +9,7 @@ set(
     "04-pipes"
     "05-sysv-ipc"
     "06-posix-threads"
+    "07-sockets"
 )
 
 foreach(project ${PROJECTS})
