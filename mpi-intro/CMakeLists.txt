@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.1)
 
 set(
     PROJECTS
-    "linux-system-programming-overview"
-    "mpi-intro"
+    01-hello-world
 )
 
 foreach(project ${PROJECTS})
