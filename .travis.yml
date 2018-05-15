@@ -9,6 +9,8 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-7
+      - libboost1.55-all-dev
+      - libopenmpi-dev
 
 script:
   - mkdir build
