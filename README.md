@@ -4,3 +4,4 @@
 
 * [Введение в системное программирование под Linux](linux-system-programming-overview)
 * [Введение в MPI](mpi-intro)
+* [Графы](graphs)
