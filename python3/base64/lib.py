@@ -43,10 +43,10 @@ def decode(fin, fout):
             break
 
         if len(s) != 4:
-            raise Exception('Input is trucncated')
+            raise ValueError('Input is trucncated')
 
         if BASE64_RE.match(s) is None:
-            raise Exception('Input is invalid')
+            raise ValueError('Input is invalid')
 
         if s[-2:] == '==':
             padding = 2

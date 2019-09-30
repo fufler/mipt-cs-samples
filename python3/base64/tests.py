@@ -32,6 +32,19 @@ class Decode(unittest.TestCase):
         self.assertEqual('AB', decode_as_text('QUI='))
         self.assertEqual('ABC', decode_as_text('QUJD'))
 
+    def test_invalid(self):
+        with self.assertRaises(ValueError):
+            decode_as_binary('AAAAB')
+
+        with self.assertRaises(ValueError):
+            decode_as_binary('AA=B')
+
+        with self.assertRaises(ValueError):
+            decode_as_binary('A=AB')
+
+        with self.assertRaises(ValueError):
+                    decode_as_binary('=CAB')
+
 
 if __name__ == '__main__':
     unittest.main()
